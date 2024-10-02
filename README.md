@@ -5,5 +5,7 @@ In this repository, you will find the steps to:
 
 Convert an OpenStreetMap (OSM) file into a Webots world file.
 Set up and configure SUMO to control the traffic in the Webots environment.
-Correctly set up the offsets to ensure the coordinates match between Webots and SUMO.
 Here is a step-by-step guide to getting started with converting an OSM file to a Webots world file and integrating it with the SUMO traffic simulation.
+
+# 1) Downnload osm map
+
