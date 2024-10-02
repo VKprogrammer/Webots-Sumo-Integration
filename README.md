@@ -57,6 +57,21 @@ To generate random traffic for your simulation, you can follow the instructions 
 
 https://www.youtube.com/watch?v=NOPn9sE0AdY
 
+# Step 5: Set Up the Webots World File
+Move Your .wbt File: Place your .wbt file (e.g., git_demo.wbt) in a folder on your desktop. Create a new folder named wbtfilename_net and ensure that the .wbt file is at the same directory level as this folder, not inside it.
+
+Edit the World File: Open the .wbt file in Webots and add a new Proto node named "sumointerface". You can easily find this in the Proto list. Toggle the sumointerface node and enter the directory path of your wbtfilename_net folder inside the "network files" field, using forward slashes (e.g., C:/Users/YourUsername/Desktop/wbtfilename_net).
+
+Run the Simulation: Launch the simulation in Webots. This should automatically trigger SUMO.
+
+Import External Ports: Open the console; it may prompt you to import external ports for the vehicles generated in SUMO. You can import these from the "IMPORTABLE EXTERNPORT" bar located at the top left of the Scene Tree.
+
+Once you complete these steps, your simulation should run smoothly.
+
+If you encounter any issues, feel free to reach out at vk7513228@gmail.com.
+
+# Thank you!
+
 
 
 
