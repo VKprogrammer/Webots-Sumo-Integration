@@ -52,3 +52,11 @@ Ensure you check which version of Python is working (Python 3 or another version
 Install Missing Modules: If any modules are reported as missing during the execution, you can install them using pip. For example:
 Locate the World File: After successfully running the command, you will find the generated world file (git_demo.wbt) in the same folder.
 
+# Step 4: Generate Random Traffic
+To generate random traffic for your simulation, you can follow the instructions provided in the following video. This video not only demonstrates the traffic generation process but may also cover some of the previous steps, which can be helpful:
+
+https://www.youtube.com/watch?v=NOPn9sE0AdY
+
+
+
+
