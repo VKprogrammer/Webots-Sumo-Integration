@@ -36,6 +36,6 @@ You will need to use the netconvert and duaRouter commands from the SUMO tools. 
 
 Generate the Network File from OSM: Use the netconvert command to convert your OSM file into a SUMO network file. This command will also generate the associated node and edge files automatically.
 
-## commands that should be executed-   "netconvert --osm-files your_file.osm --output-file your_file.net.xml --output-prefix your_file"
-##                                  "duaRouter --net-file your_file.net.xml --output-file your_routes.rou.xml"
+#### commands that should be executed-   "netconvert --osm-files your_file.osm --output-file your_file.net.xml --output-prefix your_file"
+####                                  "duaRouter --net-file your_file.net.xml --output-file your_routes.rou.xml"
 
