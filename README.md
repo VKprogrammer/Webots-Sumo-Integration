@@ -28,3 +28,13 @@ Download the OSM File:
 After selecting the area, click on the "Export" button in the left panel.
 The map data will be exported, and a download of your .osm file will begin automatically.
 
+# Step 2: Generate Necessary SUMO Files from OSM
+Once you have your .osm file downloaded, the next step is to convert it into the required SUMO format files. These files include the network file (.net.xml), edge file (.edg.xml), and route file (.rou.xml).
+
+Commands to Generate SUMO Files
+You will need to use the netconvert and duaRouter commands from the SUMO tools. Follow the steps below to generate these files:
+
+Generate the Network File from OSM: Use the netconvert command to convert your OSM file into a SUMO network file. This command will also generate the associated node and edge files automatically.
+# # command should be executed-   "netconvert --osm-files your_file.osm --output-file your_file.net.xml --output-prefix your_file"
+#                                  "duaRouter --net-file your_file.net.xml --output-file your_routes.rou.xml"
+
