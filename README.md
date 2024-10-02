@@ -73,7 +73,8 @@ If you encounter any issues, feel free to reach out at vk7513228@gmail.com.
 # Thank you!
 
 ## Video Demonstration
-Check out the video demonstration of the project [https://drive.google.com/drive/folders/11B7S5K1SNZ_rNlDXBXuxQvIr87wrOCDx?usp=sharing]([PASTE_YOUR_LINK_HERE](https://drive.google.com/drive/folders/11B7S5K1SNZ_rNlDXBXuxQvIr87wrOCDx?usp=sharing)).
+## Video Demonstration
+Check out the video demonstration of the project [here](https://drive.google.com/drive/folders/11B7S5K1SNZ_rNlDXBXuxQvIr87wrOCDx?usp=sharing).
 
 
 
