@@ -39,3 +39,16 @@ Generate the Network File from OSM: Use the netconvert command to convert your O
 #### commands that should be executed-   "netconvert --osm-files your_file.osm --output-file your_file.net.xml --output-prefix your_file"
 ####                                  "duaRouter --net-file your_file.net.xml --output-file your_routes.rou.xml"
 
+# Step 3: Convert OSM File to Webots World File
+Prepare the OSM File: First, ensure that your OSM file is placed in the following directory:
+####  C:\Program Files\Webots\resources\osm_importer (might be differ where your webots is installed but main thing is that osm file should be in the corresponding webots folder)
+Open Command Prompt: Open the Command Prompt as an administrator in the same folder where the OSM file is located.
+
+Run the Import Command: Execute the following command, replacing map1.osm with the name of your OSM file and git_demo.wbt with your desired output file name:
+
+#### command for .osm to world "python importer.py --input=map1.osm --output=git_demo.wbt"
+Ensure you check which version of Python is working (Python 3 or another version) before running the command.
+
+Install Missing Modules: If any modules are reported as missing during the execution, you can install them using pip. For example:
+Locate the World File: After successfully running the command, you will find the generated world file (git_demo.wbt) in the same folder.
+
